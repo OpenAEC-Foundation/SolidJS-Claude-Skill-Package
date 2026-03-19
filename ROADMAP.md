@@ -4,7 +4,7 @@
 
 ## Current Status
 
-**Phase 7: Publication & Release** — INDEX.md and README being finalized
+**Phase 7: Publication & Release** — COMPLETE. v1.0.0 published.
 
 ## Phase Overview
 
@@ -16,7 +16,7 @@
 | 4 | Masterplan Creation | COMPLETE | 100% |
 | 5 | Skill Writing | COMPLETE | 100% |
 | 6 | Validation & Cross-Review | COMPLETE | 100% |
-| 7 | Publication & Release | IN PROGRESS | 80% |
+| 7 | Publication & Release | COMPLETE | 100% |
 
 ## Phase 1: Infrastructure & Research Setup (100%)
 
@@ -77,19 +77,23 @@
 - [x] Line count compliance (< 500 per SKILL.md)
 - [x] React contamination check (no React patterns in examples)
 
-## Phase 7: Publication & Release (80%)
+## Phase 7: Publication & Release (100%)
 - [x] INDEX.md with complete skill catalog
 - [x] README.md finalized with skill counts
-- [ ] Social preview image (1280x640px)
-- [ ] Release tag (v1.0.0) and GitHub release
-- [ ] Repository topics set
+- [x] Social preview image (1280x640px)
+- [x] Release tag (v1.0.0) and GitHub release
+- [x] Repository topics set (claude, skills, solidjs, reactive, frontend, ai, deterministic, openaec)
 
 ---
 
 ## Next Steps
-1. Commit all changes
-2. Create release tag v1.0.0
-3. Publish to GitHub
+
+**Project complete.** All 7 phases executed in a single session.
+
+Future work:
+- Monitor SolidJS 2.x stable release and update skills accordingly
+- Add skills for new SolidStart features as they ship
+- Community feedback integration
 
 ---
 
@@ -99,8 +103,7 @@
 | 2026-03-19 | Phase 1: Repository initialized, core files created |
 | 2026-03-19 | Phase 2: Vooronderzoek complete — 3838 lines of research across 3 fragments |
 | 2026-03-19 | Phase 3: Deep topic research complete (integrated into Phase 2) |
-| 2026-03-19 | Phase 4: Masterplan complete — 17 skills, 6 batches, full agent prompts |
-| 2026-03-19 | Phase 5: Skill writing started — Batch 1 |
+| 2026-03-19 | Phase 4: Masterplan complete — 16 skills, 6 batches, full agent prompts |
 | 2026-03-19 | Phase 5: All 6 batches complete — 16 skills with 48 reference files |
 | 2026-03-19 | Phase 6: Validation complete — all skills pass quality criteria |
-| 2026-03-19 | Phase 7: INDEX.md and README.md finalized |
+| 2026-03-19 | Phase 7: Published — v1.0.0 release, social preview, topics set |
