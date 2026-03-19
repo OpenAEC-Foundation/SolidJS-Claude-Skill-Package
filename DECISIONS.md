@@ -53,10 +53,11 @@
 
 ---
 
-### D-008: Retained All 17 Skills From Raw Masterplan
+### D-008: Retained All 16 Skills From Raw Masterplan
 **Date:** 2026-03-19
-**Decision:** All 17 skills from the raw masterplan were kept as-is during refinement. No merges, additions, or removals.
+**Decision:** All 16 skills from the raw masterplan were kept as-is during refinement. No merges, additions, or removals.
 **Rationale:** Research confirmed sufficient API surface for each skill. No overlap detected — SolidJS has fewer concepts than Tauri but each concept is deeper, justifying a dedicated skill per topic.
+**Corrigendum (2026-03-19):** Original entry incorrectly stated 17 skills. Actual count is 16 (2 core + 5 syntax + 3 errors + 4 impl + 2 agents).
 
 ---
 

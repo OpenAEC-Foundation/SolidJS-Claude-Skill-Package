@@ -73,3 +73,11 @@
 **Phase:** 7 (Compliance Audit)
 **Lesson:** Running a methodology compliance audit after Phase 7 caught 10 issues (71% score) that were invisible during development. The audit-remediation cycle raised compliance to 90%+. ALWAYS run the audit before declaring a package complete.
 **Impact:** A compliance audit step should be formalized as Phase 7.5 (or integrated into Phase 7) in the Skill-Package-Workflow-Template. No package should be tagged as v1.0.0 without passing the audit at 90%+ compliance.
+
+---
+
+### L-010: Research Discoveries Deserve Their Own Lessons
+**Date:** 2026-03-19
+**Phase:** 2 (Deep Research)
+**Lesson:** The SolidJS vooronderzoek uncovered 31 React anti-patterns (AP-001 through AP-031) that silently break SolidJS applications. This was the most significant discovery of the project — destructuring props kills reactivity, Array.map() causes full re-renders, components-as-functions mental model is wrong. These findings should have been logged as individual lessons during Phase 2 rather than only appearing in the research document.
+**Impact:** ALWAYS log significant research discoveries as LESSONS.md entries during Phase 2, not just in the research document. Research documents may not be read in future sessions, but LESSONS.md is read at session start per P-001.
