@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Preview Banner</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #2A2A32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .banner {
+    width: 1280px;
+    height: 640px;
+    background: #2A2A32;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .top-strip {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2C4F7C 0%, #446B9E 50%, #2C4F7C 100%);
+  }
+
+  .banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(250,250,249,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(250,250,249,0.02) 1px, transparent 1px);
+    background-size: 30px 30px;
+    pointer-events: none;
+  }
+
+  .left {
+    position: relative; z-index: 1;
+    width: 50%;
+    padding: 72px 40px 56px 72px;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+
+  .number {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 140px; font-weight: 700;
+    color: #FAFAF9; line-height: 0.85;
+    letter-spacing: -0.02em; margin-bottom: 10px;
+  }
+
+  .title {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 26px; font-weight: 700;
+    color: #446B9E;
+    letter-spacing: 4px; text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+
+  .subtitle {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 17px; color: #A1A1AA;
+    font-weight: 400; margin-bottom: 30px; line-height: 1.5;
+  }
+
+  .badges {
+    display: flex; gap: 12px;
+    margin-bottom: 32px; flex-wrap: wrap;
+  }
+
+  .badge {
+    font-family: 'Inter', system-ui, sans-serif;
+    padding: 8px 20px; border-radius: 8px;
+    font-size: 13px; font-weight: 600;
+    background: transparent; border: 2px solid;
+  }
+
+  .badge-solid       { border-color: #2C4F7C; color: #2C4F7C; }
+  .badge-solidstart   { border-color: #446B9E; color: #446B9E; }
+  .badge-typescript  { border-color: #3178C6; color: #3178C6; }
+
+  .versions {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; font-weight: 500;
+    color: #A1A1AA; letter-spacing: 0.05em;
+    display: flex; gap: 10px; align-items: center;
+  }
+  .versions .sep { color: #36363E; }
+
+  .right {
+    position: relative; z-index: 1;
+    width: 50%;
+    padding: 56px 56px 56px 16px;
+    display: flex; align-items: center;
+  }
+
+  .code-window {
+    width: 100%;
+    background: rgba(54, 54, 62, 0.8);
+    border: 1px solid rgba(250,250,249,0.06);
+    border-radius: 12px; overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
+    max-height: 100%;
+  }
+  .code-window * { overflow: hidden; }
+
+  .code-titlebar {
+    background: rgba(42, 42, 50, 0.95);
+    padding: 12px 16px;
+    display: flex; align-items: center; gap: 8px;
+    border-bottom: 1px solid rgba(250,250,249,0.04);
+  }
+
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-red    { background: #DC2626; }
+  .dot-yellow { background: #F59E0B; }
+  .dot-green  { background: #16A34A; }
+
+  .code-filename {
+    color: #A1A1AA; font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500; margin-left: auto; margin-right: auto;
+  }
+
+  .code-body {
+    padding: 20px 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; line-height: 1.7; color: #FAFAF9;
+  }
+
+  .comment  { color: #A1A1AA; }
+  .keyword  { color: #446B9E; }
+  .function { color: #2C4F7C; }
+  .string   { color: #34D399; }
+  .operator { color: #2563EB; }
+  .cursor {
+    display: inline-block; width: 8px; height: 17px;
+    background: #446B9E; vertical-align: text-bottom;
+  }
+
+  .foundation {
+    position: absolute; bottom: 28px; right: 44px;
+    text-align: right; z-index: 1;
+  }
+  .foundation-name {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 18px; font-weight: 700; letter-spacing: 0.5px;
+  }
+  .foundation-name .open { color: #FAFAF9; }
+  .foundation-name .aec  { color: #446B9E; }
+  .foundation-sub {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 11px; color: #A1A1AA;
+    font-weight: 500; letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="top-strip"></div>
+    <div class="left">
+      <div class="number">6</div>
+      <div class="title">Deterministic Skills</div>
+      <div class="subtitle">for flawless SolidJS reactive development</div>
+
+      <div class="badges">
+        <div class="badge badge-solid">SolidJS 1.x/2.0</div>
+        <div class="badge badge-solidstart">SolidStart 1.0</div>
+        <div class="badge badge-typescript">TypeScript</div>
+      </div>
+
+      <div class="versions">
+        solid-js 1.8+ / 2.0 <span class="sep">|</span> @solidjs/start 1.0 <span class="sep">|</span> @solidjs/router 0.15+
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="code-window">
+        <div class="code-titlebar">
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green"></div>
+          <span class="code-filename">Counter.tsx</span>
+        </div>
+        <div class="code-body">
+          <span class="comment">// SolidJS -- NOT React!</span><br>
+          <span class="comment">// Signals, not useState</span><br>
+          <span class="keyword">import</span> { <span class="function">createSignal</span> } <span class="keyword">from</span> <span class="string">'solid-js'</span>;<br>
+          <br>
+          <span class="comment">// Components run ONCE, not on re-render</span><br>
+          <span class="keyword">function</span> <span class="function">Counter</span>() {<br>
+          &nbsp;&nbsp;<span class="keyword">const</span> [count, setCount] <span class="operator">=</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="function">createSignal</span>(0);<br>
+          <br>
+          &nbsp;&nbsp;<span class="comment">// Call count() -- it's a getter!</span><br>
+          &nbsp;&nbsp;<span class="keyword">return</span> (<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;button onClick<span class="operator">=</span>{() <span class="operator">=&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setCount(c <span class="operator">=&gt;</span> c + 1)}&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<span class="function">count</span>()}<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br>
+          &nbsp;&nbsp;);<br>
+          }<span class="cursor"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foundation">
+      <div class="foundation-name"><span class="open">Open</span><span class="aec">AEC</span></div>
+      <div class="foundation-sub">Foundation</div>
+    </div>
+  </div>
+</body>
+</html>
