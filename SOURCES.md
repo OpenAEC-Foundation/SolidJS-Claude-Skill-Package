@@ -7,30 +7,30 @@
 ### Primary Documentation
 | Source | URL | Type | Last Verified |
 |--------|-----|------|---------------|
-| SolidJS Docs | https://docs.solidjs.com | Official docs | Not yet |
-| SolidJS Website | https://www.solidjs.com | Official site | Not yet |
-| SolidJS Tutorial | https://www.solidjs.com/tutorial | Interactive tutorial | Not yet |
-| SolidJS GitHub | https://github.com/solidjs/solid | Source code | Not yet |
-| SolidJS API Reference | https://docs.solidjs.com/reference | API reference | Not yet |
+| SolidJS Docs | https://docs.solidjs.com | Official docs | 2026-03-19 |
+| SolidJS Website | https://www.solidjs.com | Official site | 2026-03-19 |
+| SolidJS Tutorial | https://www.solidjs.com/tutorial | Interactive tutorial | 2026-03-19 |
+| SolidJS GitHub | https://github.com/solidjs/solid | Source code | 2026-03-19 |
+| SolidJS API Reference | https://docs.solidjs.com/reference | API reference | 2026-03-19 |
 
 ### SolidStart (Meta-Framework)
 | Source | URL | Type | Last Verified |
 |--------|-----|------|---------------|
-| SolidStart Docs | https://start.solidjs.com | Official docs | Not yet |
-| SolidStart GitHub | https://github.com/solidjs/solid-start | Source code | Not yet |
+| SolidStart Docs | https://start.solidjs.com | Official docs | 2026-03-19 |
+| SolidStart GitHub | https://github.com/solidjs/solid-start | Source code | 2026-03-19 |
 
 ### Ecosystem
 | Source | URL | Type | Last Verified |
 |--------|-----|------|---------------|
-| Solid Router | https://github.com/solidjs/solid-router | Routing library | Not yet |
-| Solid Primitives | https://github.com/solidjs-community/solid-primitives | Community utilities | Not yet |
-| SolidJS Store | https://docs.solidjs.com/concepts/stores | Store docs | Not yet |
+| Solid Router | https://github.com/solidjs/solid-router | Routing library | 2026-03-19 |
+| Solid Primitives | https://github.com/solidjs-community/solid-primitives | Community utilities | 2026-03-19 |
+| SolidJS Store | https://docs.solidjs.com/concepts/stores | Store docs | 2026-03-19 |
 
 ### Release Notes & Changelogs
 | Source | URL | Type | Last Verified |
 |--------|-----|------|---------------|
-| SolidJS Releases | https://github.com/solidjs/solid/releases | Release notes | Not yet |
-| SolidJS Blog | https://www.solidjs.com/blog | Official blog | Not yet |
+| SolidJS Releases | https://github.com/solidjs/solid/releases | Release notes | 2026-03-19 |
+| SolidJS Blog | https://www.solidjs.com/blog | Official blog | 2026-03-19 |
 
 ## Verification Rules
 
