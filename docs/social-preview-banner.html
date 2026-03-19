@@ -168,13 +168,13 @@
   <div class="banner">
     <div class="top-strip"></div>
     <div class="left">
-      <div class="number">6</div>
+      <div class="number">16</div>
       <div class="title">Deterministic Skills</div>
-      <div class="subtitle">for flawless SolidJS reactive development</div>
+      <div class="subtitle">for flawless SolidJS reactive<br>framework development</div>
 
       <div class="badges">
-        <div class="badge badge-solid">SolidJS 1.x/2.0</div>
-        <div class="badge badge-solidstart">SolidStart 1.0</div>
+        <div class="badge badge-solid">SolidJS</div>
+        <div class="badge badge-solidstart">SolidStart</div>
         <div class="badge badge-typescript">TypeScript</div>
       </div>
 
@@ -192,23 +192,19 @@
           <span class="code-filename">Counter.tsx</span>
         </div>
         <div class="code-body">
-          <span class="comment">// SolidJS -- NOT React!</span><br>
-          <span class="comment">// Signals, not useState</span><br>
-          <span class="keyword">import</span> { <span class="function">createSignal</span> } <span class="keyword">from</span> <span class="string">'solid-js'</span>;<br>
+          <span class="comment">// WRONG — React pattern breaks SolidJS</span><br>
+          <span class="keyword">const</span> { count } = props; <span class="comment">// ✗ dead</span><br>
+          {items.<span class="function">map</span>(i <span class="operator">=&gt;</span> &lt;Item /&gt;)} <span class="comment">// ✗</span><br>
           <br>
-          <span class="comment">// Components run ONCE, not on re-render</span><br>
-          <span class="keyword">function</span> <span class="function">Counter</span>() {<br>
-          &nbsp;&nbsp;<span class="keyword">const</span> [count, setCount] <span class="operator">=</span><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;<span class="function">createSignal</span>(0);<br>
+          <span class="comment">// CORRECT — Fine-grained reactivity</span><br>
+          <span class="keyword">const</span> [count, setCount] <span class="operator">=</span> <span class="function">createSignal</span>(0);<br>
           <br>
-          &nbsp;&nbsp;<span class="comment">// Call count() -- it's a getter!</span><br>
-          &nbsp;&nbsp;<span class="keyword">return</span> (<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&lt;button onClick<span class="operator">=</span>{() <span class="operator">=&gt;</span><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setCount(c <span class="operator">=&gt;</span> c + 1)}&gt;<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<span class="function">count</span>()}<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;<br>
-          &nbsp;&nbsp;);<br>
-          }<span class="cursor"></span>
+          &lt;<span class="function">For</span> each<span class="operator">=</span>{items()}&gt;<br>
+          &nbsp;&nbsp;{(item) <span class="operator">=&gt;</span> &lt;Item item<span class="operator">=</span>{item} /&gt;}<br>
+          &lt;/<span class="function">For</span>&gt;<br>
+          <br>
+          <span class="comment">// Props stay reactive — NEVER destructure</span><br>
+          &lt;div&gt;{props.<span class="function">count</span>()}&lt;/div&gt;<span class="cursor"></span>
         </div>
       </div>
     </div>
