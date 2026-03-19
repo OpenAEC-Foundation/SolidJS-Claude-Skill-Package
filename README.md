@@ -1,5 +1,9 @@
 # SolidJS Claude Skill Package
 
+<p align="center">
+  <img src="docs/social-preview.png" alt="6 Deterministic Skills for SolidJS" width="100%">
+</p>
+
 **Deterministic Claude AI skills for SolidJS reactive framework development.**
 
 Built on the [Agent Skills](https://agentskills.org) open standard.
