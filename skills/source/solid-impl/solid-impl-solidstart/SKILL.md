@@ -1,6 +1,10 @@
 ---
 name: solid-impl-solidstart
-description: "Guides SolidStart meta-framework including file-based routing, data loading with query and createAsync, server functions with 'use server' directive, actions and mutations with form integration, SSR and streaming with renderToStream, hydration, and API routes. Activates when building SolidStart applications, implementing server-side data loading, creating API routes, handling form submissions, or configuring SSR."
+description: >
+  Use when building SolidStart applications with SSR, file-based routing, or server functions.
+  Prevents incorrect 'use server' placement, broken hydration, and misuse of query/createAsync patterns.
+  Covers file-based routing, data loading with query and createAsync, server functions, actions with form integration, SSR streaming, hydration, and API routes.
+  Keywords: SolidStart, use server, createAsync, query, file-based routing, SSR, hydration, API routes, Vinxi, Nitro.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidStart 1.x with SolidJS 1.x/2.x and TypeScript."
 metadata:

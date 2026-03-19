@@ -1,6 +1,10 @@
 ---
 name: solid-syntax-jsx
-description: "Guides SolidJS JSX compilation model and control flow components including Show, For, Index, Switch/Match, Dynamic, Portal, and Suspense. Explains how SolidJS compiles JSX to direct DOM creation (no virtual DOM), attribute handling, namespaced attributes (attr:, prop:, class:, on:, use:, bool:), and style objects. Activates when writing SolidJS templates, rendering lists, conditional rendering, switching between views, or understanding JSX compilation."
+description: >
+  Use when writing JSX templates, rendering lists, conditional rendering, or using control flow components in SolidJS.
+  Prevents ternary/map anti-patterns from React that bypass SolidJS compiled DOM optimizations.
+  Covers Show, For, Index, Switch/Match, Dynamic, Portal, Suspense, JSX compilation model, and namespaced attributes.
+  Keywords: Show, For, Index, Switch, Match, Dynamic, Portal, Suspense, SolidJS JSX, control flow, conditional rendering.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

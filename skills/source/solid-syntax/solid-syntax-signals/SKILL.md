@@ -1,6 +1,10 @@
 ---
 name: solid-syntax-signals
-description: "Guides ALL SolidJS reactive primitives including createSignal, createEffect, createMemo, createResource, createRenderEffect, createComputed, batch, untrack, on, onMount, onCleanup, observable, and from. Activates when creating signals, writing effects, computing derived values, fetching async data, batching updates, or managing component lifecycle in SolidJS."
+description: >
+  Use when creating signals, effects, memos, resources, or managing component lifecycle in SolidJS.
+  Prevents React useState/useEffect anti-patterns that break fine-grained reactivity tracking.
+  Covers createSignal, createEffect, createMemo, createResource, createRenderEffect, createComputed, batch, untrack, on, onMount, onCleanup, observable, and from.
+  Keywords: createSignal, createEffect, createMemo, createResource, batch, untrack, onMount, onCleanup, SolidJS reactivity, signals.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

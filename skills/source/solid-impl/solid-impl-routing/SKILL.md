@@ -1,6 +1,10 @@
 ---
 name: solid-impl-routing
-description: "Guides Solid Router including A component, Route configuration, Router setup, navigation hooks (useNavigate, useParams, useSearchParams, useLocation, useBeforeLeave), route matching, lazy loading with lazy(), route preloading, and config-based routing. Activates when implementing client-side routing, navigating between pages, reading URL parameters, guarding routes, or lazy-loading route components."
+description: >
+  Use when implementing client-side routing, navigation, or URL parameter handling in SolidJS applications.
+  Prevents incorrect router setup, misused navigation hooks, and non-lazy-loaded route bundles.
+  Covers Router/HashRouter setup, A component, useNavigate, useParams, useSearchParams, useBeforeLeave, lazy loading, route preloading, and config-based routing.
+  Keywords: @solidjs/router, Route, useNavigate, useParams, useSearchParams, lazy, route guard, client-side routing.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @solidjs/router 0.15+ with SolidJS 1.x/2.x and TypeScript."
 metadata:

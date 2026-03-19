@@ -11,18 +11,18 @@ Date: 2026-03-19
 
 | # | Decision | Rationale |
 |---|----------|-----------|
-| D-01 | **Kept** all 17 skills from raw masterplan | Research confirms sufficient API surface for each skill. No overlap detected — SolidJS has fewer concepts than Tauri but each concept is deeper. |
+| D-01 | **Kept** all 16 skills from raw masterplan | Research confirms sufficient API surface for each skill. No overlap detected — SolidJS has fewer concepts than Tauri but each concept is deeper. |
 | D-02 | **Organized** research references across three fragment files | No single vooronderzoek file exists — research is split into `reactivity-research.md`, `jsx-components-research.md`, and `solidstart-ecosystem-research.md`. Agent prompts reference specific fragment files and sections. |
 | D-03 | **Added** explicit React anti-pattern requirement to EVERY skill prompt | SolidJS's core problem is React contamination. Every skill must show WRONG (React) vs CORRECT (SolidJS) patterns. This is the package's unique value. |
 | D-04 | **Ensured** solid-errors-react-contamination is the largest skill | Research §10 (reactivity) and §8 (jsx-components) catalog 20+ anti-patterns. This skill gets the most reference file content. |
 | D-05 | **Moved** ErrorBoundary/Suspense to solid-errors-error-handling | These are error recovery components. While documented in jsx-components research, their skill home is errors/ for discoverability when debugging. |
 | D-06 | **Scoped** solid-impl-testing to solid-testing-library only | No Tauri-style mock infrastructure exists for SolidJS. Testing focuses on solid-testing-library (render, screen, fireEvent, cleanup). |
 
-**Result**: 17 raw skills → **17 definitive skills** (0 merges, 0 additions, 0 removals).
+**Result**: 16 raw skills → **16 definitive skills** (0 merges, 0 additions, 0 removals).
 
 ---
 
-## Definitive Skill Inventory (17 skills)
+## Definitive Skill Inventory (16 skills)
 
 ### solid-core/ (2 skills)
 
@@ -78,7 +78,7 @@ Date: 2026-03-19
 | 5 | `impl-testing`, `errors-reactivity-debugging`, `errors-error-handling` | 3 | Batch 1–4 | Testing + error skills |
 | 6 | `agents-review`, `agents-project-scaffolder` | 2 | ALL above | Agent skills reference all other skills |
 
-**Total**: 17 skills across 6 batches.
+**Total**: 16 skills across 6 batches.
 
 ---
 

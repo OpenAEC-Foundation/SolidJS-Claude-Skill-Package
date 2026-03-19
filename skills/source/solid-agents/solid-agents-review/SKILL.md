@@ -1,8 +1,12 @@
 ---
 name: solid-agents-review
-description: "Validates generated SolidJS code for correctness by checking signal access patterns, control flow component usage, props handling, store mutations, event handling, context usage, and React contamination detection. Run this checklist on every SolidJS code generation to catch silent reactivity breaks. Activates when reviewing SolidJS code, validating a SolidJS project, or checking for React pattern contamination before deployment."
+description: >
+  Use when reviewing generated SolidJS code, validating a SolidJS project, or checking for React pattern contamination.
+  Prevents silent reactivity breaks from incorrect signal access, destructured props, wrong control flow, and store mutation errors.
+  Covers signal access patterns, control flow components, props handling, store mutations, event handling, and context usage.
+  Keywords: SolidJS review, code validation, React contamination, signal access, createSignal, Show, For, props, stores.
 license: MIT
-compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
+compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:
   author: OpenAEC-Foundation
   version: "1.0"

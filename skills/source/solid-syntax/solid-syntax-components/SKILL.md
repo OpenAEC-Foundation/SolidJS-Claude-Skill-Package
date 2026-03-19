@@ -1,6 +1,10 @@
 ---
 name: solid-syntax-components
-description: "Guides SolidJS component patterns including Component/ParentComponent/VoidComponent/FlowComponent types, props handling with splitProps and mergeProps, children() helper for resolving children, ref patterns, use: directives, and event handling with delegation. Activates when creating SolidJS components, handling props, working with children, using refs, creating directives, or handling events."
+description: >
+  Use when creating components, handling props, working with children, refs, directives, or events in SolidJS.
+  Prevents props destructuring and children access patterns from React that break SolidJS reactivity.
+  Covers Component/ParentComponent/VoidComponent/FlowComponent types, splitProps, mergeProps, children() helper, ref patterns, use: directives, and event delegation.
+  Keywords: splitProps, mergeProps, children, Component, ParentComponent, VoidComponent, FlowComponent, ref, use directive, SolidJS props, event handling.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

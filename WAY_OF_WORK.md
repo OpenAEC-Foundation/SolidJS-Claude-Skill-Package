@@ -67,9 +67,10 @@ skills/source/solid-{category}-{topic}/
 ```markdown
 ---
 name: solid-{category}-{topic}
-description: |
-  Trigger words that activate this skill. Include technology name,
-  action verbs, and specific API names.
+description: >
+  Use when [specific trigger scenario].
+  Prevents [common anti-pattern].
+  Covers [scope]. Keywords: [terms].
 ---
 
 # Skill Title

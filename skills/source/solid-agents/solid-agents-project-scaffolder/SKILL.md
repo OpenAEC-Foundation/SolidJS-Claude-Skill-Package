@@ -1,8 +1,12 @@
 ---
 name: solid-agents-project-scaffolder
-description: "Generates complete SolidJS or SolidStart project structure including Vite configuration, TypeScript configuration, component directory structure, routing setup, state management patterns, and testing setup. Produces production-ready project scaffolds with correct SolidJS idioms. Activates when creating a new SolidJS project, scaffolding a SolidStart application, setting up project infrastructure, or generating a complete project template."
+description: >
+  Use when creating a new SolidJS project, scaffolding a SolidStart application, or setting up project infrastructure.
+  Prevents misconfigured Vite/TypeScript settings, wrong directory structures, and React-style project patterns.
+  Covers Vite configuration, TypeScript setup, component directory structure, routing, state management, and testing setup.
+  Keywords: SolidJS scaffold, SolidStart project, Vite config, tsconfig, project template, file structure, routing setup.
 license: MIT
-compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript and Vite."
+compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:
   author: OpenAEC-Foundation
   version: "1.0"

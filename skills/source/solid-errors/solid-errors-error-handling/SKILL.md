@@ -1,6 +1,10 @@
 ---
 name: solid-errors-error-handling
-description: "Guides SolidJS error handling including ErrorBoundary usage with reset capability, Suspense boundaries for loading states, nested error and suspense boundaries, what errors ARE and ARE NOT caught, and error recovery patterns. Activates when implementing error boundaries, handling loading states with Suspense, recovering from errors, or combining ErrorBoundary with Suspense."
+description: >
+  Use when implementing error boundaries, Suspense loading states, or error recovery in SolidJS components.
+  Prevents uncaught rendering errors, missing fallback UIs, and incorrect ErrorBoundary/Suspense nesting.
+  Covers ErrorBoundary with reset, Suspense for createResource, nested boundaries, caught vs uncaught errors, and combined error/loading patterns.
+  Keywords: ErrorBoundary, Suspense, error handling, fallback, reset, createResource, loading state, error recovery.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

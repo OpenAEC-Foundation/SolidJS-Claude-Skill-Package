@@ -1,6 +1,10 @@
 ---
 name: solid-errors-react-contamination
-description: "COMPLETE catalog of React anti-patterns that break SolidJS reactivity. Covers destructured props, useState vs createSignal, useEffect vs createEffect, Array.map vs For, ternary vs Show, early returns, key prop, useRef vs ref, children as ReactNode, re-render assumption, useRouter vs useNavigate, and every other React-to-SolidJS contamination pattern. Activates when reviewing SolidJS code for React patterns, debugging reactivity breaks caused by React habits, or converting React code to SolidJS."
+description: >
+  Use when reviewing SolidJS code for React anti-patterns or converting React components to SolidJS.
+  Prevents destructured props, useState/useEffect habits, Array.map rendering, and all other React patterns that silently break SolidJS reactivity.
+  Covers all 12+ contamination patterns including props destructuring, signal misuse, effect cleanup, list rendering, conditional rendering, refs, children, and navigation.
+  Keywords: React to SolidJS, destructure props, createSignal, createEffect, For component, Show component, anti-pattern, migration.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

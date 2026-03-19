@@ -47,9 +47,9 @@
 ## Phase 4: Masterplan Creation (100%)
 
 ### Completed
-- [x] 17 definitive skills across 5 categories
+- [x] 16 definitive skills across 5 categories
 - [x] 6 execution batches with dependency chains
-- [x] Complete agent prompts for all 17 skills
+- [x] Complete agent prompts for all 16 skills
 - [x] Masterplan at docs/masterplan/solidjs-masterplan.md
 
 ## Phase 5: Skill Writing (100%)

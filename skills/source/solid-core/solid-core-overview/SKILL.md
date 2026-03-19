@@ -1,8 +1,12 @@
 ---
 name: solid-core-overview
-description: "Provides SolidJS API surface overview including version matrix for SolidJS 1.x/2.x and SolidStart 0.x/1.x, complete import reference for all entry points, ecosystem package map, and getting started guidance. Activates when starting a SolidJS project, checking API availability, looking up import paths, or understanding the SolidJS ecosystem."
+description: >
+  Use when starting a SolidJS project, checking API availability, or looking up import paths and version compatibility.
+  Prevents using deprecated APIs such as SolidStart 0.x patterns or pre-0.15 router cache function.
+  Covers version matrix for SolidJS 1.x/2.x and SolidStart, import reference, ecosystem package map, and getting started guidance.
+  Keywords: SolidJS API, version matrix, SolidStart, solid-js imports, @solidjs/router, ecosystem, Vite.
 license: MIT
-compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
+compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:
   author: OpenAEC-Foundation
   version: "1.0"

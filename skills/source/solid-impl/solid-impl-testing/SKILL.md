@@ -1,6 +1,10 @@
 ---
 name: solid-impl-testing
-description: "Guides testing SolidJS applications with solid-testing-library including render, screen queries, fireEvent, cleanup, async testing patterns, and testing reactive state. Activates when writing tests for SolidJS components, testing signal reactivity, testing store updates, or setting up test infrastructure."
+description: >
+  Use when writing unit or integration tests for SolidJS components, signals, or stores.
+  Prevents missing cleanup calls, incorrect async test patterns, and React Testing Library habits that break SolidJS tests.
+  Covers @solidjs/testing-library render, screen queries, fireEvent, cleanup, async testing, renderHook, testEffect, and vitest configuration.
+  Keywords: @solidjs/testing-library, vitest, render, fireEvent, screen, cleanup, renderHook, testEffect, component testing.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript and @solidjs/testing-library."
 metadata:

@@ -1,6 +1,10 @@
 ---
 name: solid-syntax-context
-description: "Guides SolidJS Context API including createContext, useContext, Provider pattern, reactive context with signals and stores, typed context with TypeScript, custom hook patterns, and nested context overrides. Activates when sharing state between components, creating providers, using context for dependency injection, or implementing global state patterns."
+description: >
+  Use when sharing state between components, creating providers, or implementing dependency injection in SolidJS.
+  Prevents non-reactive context values and missing Provider errors common when porting React context patterns.
+  Covers createContext, useContext, Provider pattern, reactive context with signals and stores, typed context, custom hooks, and nested overrides.
+  Keywords: createContext, useContext, Provider, SolidJS context, dependency injection, shared state, typed context.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

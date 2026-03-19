@@ -1,6 +1,10 @@
 ---
 name: solid-impl-state-patterns
-description: "Guides SolidJS state management architecture including when to use signals vs stores vs context, global state with context and stores, derived state with createMemo, form state patterns, and state composition strategies. Activates when designing state architecture, choosing between signals and stores, implementing global state, managing form state, or structuring state for a SolidJS application."
+description: >
+  Use when designing state architecture or choosing between signals, stores, and context in SolidJS.
+  Prevents using createEffect for derived state, capturing signal snapshots, and incorrect store mutation patterns.
+  Covers createSignal vs createStore decision matrix, context providers, createMemo for derived state, form state patterns, and state composition strategies.
+  Keywords: createSignal, createStore, createContext, createMemo, global state, context provider, state management, derived state.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

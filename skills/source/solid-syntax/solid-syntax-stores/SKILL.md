@@ -1,6 +1,10 @@
 ---
 name: solid-syntax-stores
-description: "Guides SolidJS store system including createStore with proxy-based reactivity, setStore path syntax for surgical updates, produce for Immer-style mutations, reconcile for data diffing, unwrap for plain objects, and createMutable for direct mutation. Activates when managing complex state, updating nested objects, working with arrays in stores, or choosing between signals and stores."
+description: >
+  Use when managing complex nested state, updating objects or arrays, or choosing between signals and stores in SolidJS.
+  Prevents direct state mutation and spread-copy patterns that destroy store proxy reactivity.
+  Covers createStore, setStore path syntax, produce, reconcile, unwrap, and createMutable.
+  Keywords: createStore, setStore, produce, reconcile, unwrap, createMutable, SolidJS store, nested state, proxy reactivity.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

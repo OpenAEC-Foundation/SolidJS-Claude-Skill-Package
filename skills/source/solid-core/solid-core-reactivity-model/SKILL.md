@@ -1,8 +1,12 @@
 ---
 name: solid-core-reactivity-model
-description: "Guides SolidJS fine-grained reactivity model including reactive dependency graph, tracking contexts, ownership tree, synchronous execution model, and the fundamental difference from React's virtual DOM. Activates when reasoning about SolidJS reactivity, understanding why components run once, debugging tracking issues, or explaining how SolidJS updates the DOM without a virtual DOM."
+description: >
+  Use when reasoning about SolidJS reactivity, debugging tracking issues, or understanding why components run once.
+  Prevents React mental model contamination such as expecting re-renders, virtual DOM diffing, or stale closure patterns.
+  Covers reactive dependency graph, tracking contexts, ownership tree, synchronous execution model, and direct DOM updates.
+  Keywords: SolidJS reactivity, fine-grained, signals, tracking scope, ownership, createEffect, createMemo, no virtual DOM.
 license: MIT
-compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
+compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:
   author: OpenAEC-Foundation
   version: "1.0"
