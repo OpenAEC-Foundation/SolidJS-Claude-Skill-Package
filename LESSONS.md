@@ -25,3 +25,27 @@
 **Phase:** 1
 **Lesson:** Chose `solid-` as the skill prefix rather than `solidjs-` for brevity. The `solidjs-` prefix would be redundant since the package name already identifies the technology. Shorter prefixes improve readability in skill lists.
 **Impact:** All skill directories use `solid-{category}-{topic}` naming.
+
+---
+
+### L-004: Research-First Methodology Works
+**Date:** 2026-03-19
+**Phase:** 5
+**Lesson:** Producing 3838 lines of verified research before writing any skills enabled deterministic, high-quality skill authoring. Every skill could reference concrete API details, version differences, and anti-patterns from the vooronderzoek rather than relying on model knowledge alone. The research investment paid for itself by eliminating rework.
+**Impact:** Future skill packages should always complete thorough research phases before skill writing begins.
+
+---
+
+### L-005: Batch Delegation is Effective
+**Date:** 2026-03-19
+**Phase:** 5
+**Lesson:** 16 skills across 6 batches were written in a single session using parallel agent execution. The 3-agents-per-batch strategy with separated file scopes prevented conflicts and allowed efficient throughput. Each agent received complete context from core files, enabling autonomous high-quality output.
+**Impact:** Batch size of 3 agents with non-overlapping file scopes is the proven optimal configuration for Claude Code Agent tool.
+
+---
+
+### L-006: The Anti-Pattern Catalog is the Core Value
+**Date:** 2026-03-19
+**Phase:** 6
+**Lesson:** solid-errors-react-contamination is the most important skill in the package. It directly addresses Claude's structural bias toward React patterns — the core problem this entire package exists to solve. The 31 cataloged anti-patterns (AP-001 through AP-031) with explicit wrong/right code pairs provide the highest-impact training signal for Claude.
+**Impact:** When prioritizing maintenance or updates, the errors/ category skills should always be updated first.
