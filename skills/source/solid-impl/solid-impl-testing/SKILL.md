@@ -4,7 +4,9 @@ description: >
   Use when writing unit or integration tests for SolidJS components, signals, or stores.
   Prevents missing cleanup calls, incorrect async test patterns, and React Testing Library habits that break SolidJS tests.
   Covers @solidjs/testing-library render, screen queries, fireEvent, cleanup, async testing, renderHook, testEffect, and vitest configuration.
-  Keywords: @solidjs/testing-library, vitest, render, fireEvent, screen, cleanup, renderHook, testEffect, component testing.
+  Keywords: @solidjs/testing-library, vitest, render, fireEvent, screen, cleanup,
+  renderHook, testEffect, component testing, test SolidJS, unit test,
+  how to test components, testing setup.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript and @solidjs/testing-library."
 metadata:

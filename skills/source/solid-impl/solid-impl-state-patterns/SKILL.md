@@ -4,7 +4,9 @@ description: >
   Use when designing state architecture or choosing between signals, stores, and context in SolidJS.
   Prevents using createEffect for derived state, capturing signal snapshots, and incorrect store mutation patterns.
   Covers createSignal vs createStore decision matrix, context providers, createMemo for derived state, form state patterns, and state composition strategies.
-  Keywords: createSignal, createStore, createContext, createMemo, global state, context provider, state management, derived state.
+  Keywords: createSignal, createStore, createContext, createMemo, global state,
+  context provider, state management, derived state, signal vs store, when to
+  use which, share state between components, global reactive state.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

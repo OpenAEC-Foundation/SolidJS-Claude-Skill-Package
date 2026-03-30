@@ -4,7 +4,9 @@ description: >
   Use when creating signals, effects, memos, resources, or managing component lifecycle in SolidJS.
   Prevents React useState/useEffect anti-patterns that break fine-grained reactivity tracking.
   Covers createSignal, createEffect, createMemo, createResource, createRenderEffect, createComputed, batch, untrack, on, onMount, onCleanup, observable, and from.
-  Keywords: createSignal, createEffect, createMemo, createResource, batch, untrack, onMount, onCleanup, SolidJS reactivity, signals.
+  Keywords: createSignal, createEffect, createMemo, createResource, batch,
+  untrack, onMount, onCleanup, SolidJS reactivity, signals, reactive state,
+  side effects, computed value, fetch data, lifecycle hooks.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when managing complex nested state, updating objects or arrays, or choosing between signals and stores in SolidJS.
   Prevents direct state mutation and spread-copy patterns that destroy store proxy reactivity.
   Covers createStore, setStore path syntax, produce, reconcile, unwrap, and createMutable.
-  Keywords: createStore, setStore, produce, reconcile, unwrap, createMutable, SolidJS store, nested state, proxy reactivity.
+  Keywords: createStore, setStore, produce, reconcile, unwrap, createMutable,
+  SolidJS store, nested state, proxy reactivity, complex state, update nested
+  object, array mutation, store not updating.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

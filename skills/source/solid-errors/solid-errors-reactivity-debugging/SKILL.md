@@ -4,7 +4,10 @@ description: >
   Use when SolidJS reactivity is broken, effects are not firing, or store updates are not reflected in the UI.
   Prevents lost tracking from destructuring, conditional signal access, async tracking loss, and stale closures.
   Covers diagnostic flowcharts, solid-devtools debugging, effect tracking issues, store propagation failures, and systematic symptom-to-fix resolution.
-  Keywords: reactivity debugging, effect not firing, store not updating, signal tracking, solid-devtools, stale closure, createEffect.
+  Keywords: reactivity debugging, effect not firing, store not updating,
+  signal tracking, solid-devtools, stale closure, createEffect, UI not updating,
+  why doesn't my UI update, signal not working, reactive value stale,
+  nothing happens when I change state.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when building SolidStart applications with SSR, file-based routing, or server functions.
   Prevents incorrect 'use server' placement, broken hydration, and misuse of query/createAsync patterns.
   Covers file-based routing, data loading with query and createAsync, server functions, actions with form integration, SSR streaming, hydration, and API routes.
-  Keywords: SolidStart, use server, createAsync, query, file-based routing, SSR, hydration, API routes, Vinxi, Nitro.
+  Keywords: SolidStart, use server, createAsync, query, file-based routing,
+  SSR, hydration, API routes, Vinxi, Nitro, server function, full-stack SolidJS,
+  data loading, server actions.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidStart 1.x with SolidJS 1.x/2.x and TypeScript."
 metadata:

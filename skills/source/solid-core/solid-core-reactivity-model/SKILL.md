@@ -4,7 +4,9 @@ description: >
   Use when reasoning about SolidJS reactivity, debugging tracking issues, or understanding why components run once.
   Prevents React mental model contamination such as expecting re-renders, virtual DOM diffing, or stale closure patterns.
   Covers reactive dependency graph, tracking contexts, ownership tree, synchronous execution model, and direct DOM updates.
-  Keywords: SolidJS reactivity, fine-grained, signals, tracking scope, ownership, createEffect, createMemo, no virtual DOM.
+  Keywords: SolidJS reactivity, fine-grained, signals, tracking scope, ownership,
+  createEffect, createMemo, no virtual DOM, how reactivity works, why component
+  runs once, not like React, mental model.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when writing JSX templates, rendering lists, conditional rendering, or using control flow components in SolidJS.
   Prevents ternary/map anti-patterns from React that bypass SolidJS compiled DOM optimizations.
   Covers Show, For, Index, Switch/Match, Dynamic, Portal, Suspense, JSX compilation model, and namespaced attributes.
-  Keywords: Show, For, Index, Switch, Match, Dynamic, Portal, Suspense, SolidJS JSX, control flow, conditional rendering.
+  Keywords: Show, For, Index, Switch, Match, Dynamic, Portal, Suspense,
+  SolidJS JSX, control flow, conditional rendering, render list, if else
+  in JSX, loop over array, show hide element.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

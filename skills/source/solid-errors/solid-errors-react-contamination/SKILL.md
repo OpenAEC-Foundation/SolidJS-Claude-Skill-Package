@@ -4,7 +4,9 @@ description: >
   Use when reviewing SolidJS code for React anti-patterns or converting React components to SolidJS.
   Prevents destructured props, useState/useEffect habits, Array.map rendering, and all other React patterns that silently break SolidJS reactivity.
   Covers all 12+ contamination patterns including props destructuring, signal misuse, effect cleanup, list rendering, conditional rendering, refs, children, and navigation.
-  Keywords: React to SolidJS, destructure props, createSignal, createEffect, For component, Show component, anti-pattern, migration.
+  Keywords: React to SolidJS, destructure props, createSignal, createEffect,
+  For component, Show component, anti-pattern, migration, convert from React,
+  React habits, why does my component break, coming from React.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

@@ -4,7 +4,9 @@ description: >
   Use when creating components, handling props, working with children, refs, directives, or events in SolidJS.
   Prevents props destructuring and children access patterns from React that break SolidJS reactivity.
   Covers Component/ParentComponent/VoidComponent/FlowComponent types, splitProps, mergeProps, children() helper, ref patterns, use: directives, and event delegation.
-  Keywords: splitProps, mergeProps, children, Component, ParentComponent, VoidComponent, FlowComponent, ref, use directive, SolidJS props, event handling.
+  Keywords: splitProps, mergeProps, children, Component, ParentComponent,
+  VoidComponent, FlowComponent, ref, use directive, SolidJS props, event handling,
+  pass props, access children, click handler, component types.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

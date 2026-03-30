@@ -4,7 +4,9 @@ description: >
   Use when creating a new SolidJS project, scaffolding a SolidStart application, or setting up project infrastructure.
   Prevents misconfigured Vite/TypeScript settings, wrong directory structures, and React-style project patterns.
   Covers Vite configuration, TypeScript setup, component directory structure, routing, state management, and testing setup.
-  Keywords: SolidJS scaffold, SolidStart project, Vite config, tsconfig, project template, file structure, routing setup.
+  Keywords: SolidJS scaffold, SolidStart project, Vite config, tsconfig,
+  project template, file structure, routing setup, new SolidJS project,
+  start from scratch, create SolidJS app.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:

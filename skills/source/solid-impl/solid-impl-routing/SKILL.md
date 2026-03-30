@@ -4,7 +4,9 @@ description: >
   Use when implementing client-side routing, navigation, or URL parameter handling in SolidJS applications.
   Prevents incorrect router setup, misused navigation hooks, and non-lazy-loaded route bundles.
   Covers Router/HashRouter setup, A component, useNavigate, useParams, useSearchParams, useBeforeLeave, lazy loading, route preloading, and config-based routing.
-  Keywords: @solidjs/router, Route, useNavigate, useParams, useSearchParams, lazy, route guard, client-side routing.
+  Keywords: @solidjs/router, Route, useNavigate, useParams, useSearchParams,
+  lazy, route guard, client-side routing, add routing, page navigation,
+  URL parameters, protected routes.
 license: MIT
 compatibility: "Designed for Claude Code. Requires @solidjs/router 0.15+ with SolidJS 1.x/2.x and TypeScript."
 metadata:

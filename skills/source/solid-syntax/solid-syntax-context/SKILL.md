@@ -4,7 +4,9 @@ description: >
   Use when sharing state between components, creating providers, or implementing dependency injection in SolidJS.
   Prevents non-reactive context values and missing Provider errors common when porting React context patterns.
   Covers createContext, useContext, Provider pattern, reactive context with signals and stores, typed context, custom hooks, and nested overrides.
-  Keywords: createContext, useContext, Provider, SolidJS context, dependency injection, shared state, typed context.
+  Keywords: createContext, useContext, Provider, SolidJS context, dependency
+  injection, shared state, typed context, share data between components,
+  avoid prop drilling, global provider.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x with TypeScript."
 metadata:

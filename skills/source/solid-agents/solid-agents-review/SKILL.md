@@ -4,7 +4,9 @@ description: >
   Use when reviewing generated SolidJS code, validating a SolidJS project, or checking for React pattern contamination.
   Prevents silent reactivity breaks from incorrect signal access, destructured props, wrong control flow, and store mutation errors.
   Covers signal access patterns, control flow components, props handling, store mutations, event handling, and context usage.
-  Keywords: SolidJS review, code validation, React contamination, signal access, createSignal, Show, For, props, stores.
+  Keywords: SolidJS review, code validation, React contamination, signal access,
+  createSignal, Show, For, props, stores, check my SolidJS code, is this correct,
+  review component, validate SolidJS.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:

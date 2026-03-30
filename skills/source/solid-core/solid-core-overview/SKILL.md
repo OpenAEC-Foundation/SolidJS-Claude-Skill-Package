@@ -4,7 +4,9 @@ description: >
   Use when starting a SolidJS project, checking API availability, or looking up import paths and version compatibility.
   Prevents using deprecated APIs such as SolidStart 0.x patterns or pre-0.15 router cache function.
   Covers version matrix for SolidJS 1.x/2.x and SolidStart, import reference, ecosystem package map, and getting started guidance.
-  Keywords: SolidJS API, version matrix, SolidStart, solid-js imports, @solidjs/router, ecosystem, Vite.
+  Keywords: SolidJS API, version matrix, SolidStart, solid-js imports,
+  @solidjs/router, ecosystem, Vite, what is SolidJS, getting started,
+  which version, API reference.
 license: MIT
 compatibility: "Designed for Claude Code. Requires SolidJS 1.x/2.x."
 metadata:
