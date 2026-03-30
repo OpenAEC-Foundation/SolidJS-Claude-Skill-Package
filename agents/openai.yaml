@@ -1,0 +1,5 @@
+# OpenAI Codex skill discovery
+name: solidjs-claude-skill-package
+description: >
+  6 deterministic Claude AI skills for SolidJS reactive framework development
+skills_directory: ./skills/source

@@ -26,7 +26,7 @@ metadata:
 
 **NEVER use `Array.map()` for list rendering.** It recreates ALL DOM nodes on every array change. ALWAYS use `<For>` or `<Index>` components.
 
-## Quick Reference — All Anti-Patterns
+## Quick Reference: All Anti-Patterns
 
 | ID | Pattern | Severity | Detection |
 |----|---------|----------|-----------|

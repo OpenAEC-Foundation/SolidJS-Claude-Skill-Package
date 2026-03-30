@@ -1,0 +1,40 @@
+{
+  "name": "@openaec/solidjs-claude-skill-package",
+  "version": "1.1.0",
+  "description": "6 deterministic Claude AI skills for SolidJS reactive framework development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/SolidJS-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "solidjs",
+    "reactive",
+    "frontend",
+    "typescript",
+    "deterministic"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "solid-agents-project-scaffolder", "path": "./skills/source/solid-agents/solid-agents-project-scaffolder" },
+      { "name": "solid-agents-review", "path": "./skills/source/solid-agents/solid-agents-review" },
+      { "name": "solid-core-overview", "path": "./skills/source/solid-core/solid-core-overview" },
+      { "name": "solid-core-reactivity-model", "path": "./skills/source/solid-core/solid-core-reactivity-model" },
+      { "name": "solid-errors-error-handling", "path": "./skills/source/solid-errors/solid-errors-error-handling" },
+      { "name": "solid-errors-react-contamination", "path": "./skills/source/solid-errors/solid-errors-react-contamination" },
+      { "name": "solid-errors-reactivity-debugging", "path": "./skills/source/solid-errors/solid-errors-reactivity-debugging" },
+      { "name": "solid-impl-routing", "path": "./skills/source/solid-impl/solid-impl-routing" },
+      { "name": "solid-impl-solidstart", "path": "./skills/source/solid-impl/solid-impl-solidstart" },
+      { "name": "solid-impl-state-patterns", "path": "./skills/source/solid-impl/solid-impl-state-patterns" },
+      { "name": "solid-impl-testing", "path": "./skills/source/solid-impl/solid-impl-testing" },
+      { "name": "solid-syntax-components", "path": "./skills/source/solid-syntax/solid-syntax-components" },
+      { "name": "solid-syntax-context", "path": "./skills/source/solid-syntax/solid-syntax-context" },
+      { "name": "solid-syntax-jsx", "path": "./skills/source/solid-syntax/solid-syntax-jsx" },
+      { "name": "solid-syntax-signals", "path": "./skills/source/solid-syntax/solid-syntax-signals" },
+      { "name": "solid-syntax-stores", "path": "./skills/source/solid-syntax/solid-syntax-stores" }
+    ]
+  }
+}

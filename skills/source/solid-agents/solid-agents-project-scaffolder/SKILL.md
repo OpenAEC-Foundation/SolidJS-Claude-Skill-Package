@@ -127,7 +127,7 @@ export default defineConfig({
 }
 ```
 
-#### Entry Point — index.html
+#### Entry Point: index.html
 
 ```html
 <!DOCTYPE html>
@@ -144,7 +144,7 @@ export default defineConfig({
 </html>
 ```
 
-#### Entry Point — src/index.tsx
+#### Entry Point: src/index.tsx
 
 ```typescript
 import { render } from "solid-js/web";
@@ -370,7 +370,7 @@ export default defineConfig({
 });
 ```
 
-### Example Test — test/Counter.test.tsx
+### Example Test: test/Counter.test.tsx
 
 ```typescript
 import { render, fireEvent, screen } from "@solidjs/testing-library";

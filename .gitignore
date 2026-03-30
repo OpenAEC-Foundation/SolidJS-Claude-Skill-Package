@@ -27,3 +27,4 @@ build/
 # Claude
 .claude/
 PROMPTS.md
+SKILLS_LOG.md

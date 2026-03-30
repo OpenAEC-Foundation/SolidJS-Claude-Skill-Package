@@ -159,7 +159,7 @@ setStore("user", { lastName: "Doe" });
 
 ## Store Utilities
 
-### produce — Immer-Style Mutations
+### produce: Immer-Style Mutations
 
 Write mutation-style code that gets applied as reactive updates. See [references/methods.md](references/methods.md) for signature.
 
@@ -184,7 +184,7 @@ setStore("items", 0, produce((item) => {
 }));
 ```
 
-### reconcile — Data Diffing
+### reconcile: Data Diffing
 
 Diffs new data against existing store, updating only what changed. ALWAYS use reconcile when syncing API responses into stores.
 
@@ -197,7 +197,7 @@ setStore("todos", reconcile(todos));
 
 Options: `key` (default `"id"`) for item matching, `merge` (default `false`) for leaf-level diffing.
 
-### unwrap — Strip Reactive Proxy
+### unwrap: Strip Reactive Proxy
 
 Returns a plain JavaScript object. ALWAYS use unwrap before passing store data to non-SolidJS code.
 
@@ -207,7 +207,7 @@ JSON.stringify(plain);           // Safe serialization
 thirdPartyLib.process(plain);    // No proxy interference
 ```
 
-### createMutable — Direct Mutation Store
+### createMutable: Direct Mutation Store
 
 Allows direct property mutation (MobX/Vue-style). Supports computed getters/setters.
 
